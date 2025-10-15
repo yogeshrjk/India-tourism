@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        background-image: url("./assets/Indiagate.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+        text-align: center;
+      }
+      .container-txt {
+        position: absolute;
+        right: 10%;
+        top: 30%;
+        opacity: 0.8;
+      }
+      .container h1 {
+        font-size: 80px;
+        color: rgb(255, 254, 254);
+        text-shadow: 4px 1px #d8d8d861;
+        text-transform: uppercase;
+        
+      }
+
+      .card-info {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin-bottom: 30px;
+      }
+      .card-info:hover.card-info::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 98%;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease;
+        z-index: 1;
+      }
+      .card-info h1 {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: white;
+        font-size: 20px;
+        display: none;
+        z-index: 2;
+      }
+      .card-info:hover.card-info h1 {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-txt">
+        <h1>Destinations</h1>
+        <div style="display: flex; justify-content: center; margin: 0">
+          <span
+            style="
+              display: block;
+              width: 100px;
+              height: 2px;
+              background-color: rgb(255, 255, 255);
+              margin: 10px 0;
+            "
+          ></span>
+          <span style="padding: 0 5px; font-size: 18px; color: #ffffff; "
+            >Uncover india</span
+          >
+          <span
+            style="
+              display: block;
+              width: 100px;
+              height: 2px;
+              background-color: #ffffff;
+              margin: 10px 0;
+            "
+          ></span>
+        </div>
+        <p style="font-size: 20px; color: #ffffff">
+          Never stop exploring the world
+        </p>
+      </div>
+    </div>
+    <div class="places" style="height: 100vh; padding: 50px">
+      <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap;">
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Tajmahal</h1>
+        </div>
+        <div class="card-info">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1697730426305-113c62434f97?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Golden Temple</h1>
+        </div>
+        <div class="card-info">
+          <img
+            src="https://travelogyindia.wordpress.com/wp-content/uploads/2018/12/pink-city-jaipur-min-1.jpg"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Jaipur (Pink city)</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1571536802807-30451e3955d8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2120"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Varanashi Ghat</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1697729733902-f8c92710db07?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Shimla & Manali</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1677934125266-2c2941e03e6e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Gateway of India</h1>
+        </div>
+    
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1606298855672-3efb63017be8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Khajuraho Temple</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1697729588019-20a1f5a325d1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Ajanta Caves</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1572431447238-425af66a273b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1674"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Lakshadweep</h1>
+        </div>
+     
+        <div class="card-info">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1697729594707-0fc9e51c8eed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Goa beach</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1716747713381-ebdd06319cdd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Qutub Minar</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1732022648903-737e66c18b08?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Jaisalmer Fort</h1>
+        </div>
+   
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1643449416258-5c8e7ec598b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Kashmir Valley</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://image-tc.galaxy.tf/wijpeg-3zqag3vtnn6u7pl81rux37dgv/statue-6678155-1920_standard.jpg?crop=35%2C0%2C1851%2C1388"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Statue of Unity</h1>
+        </div>
+
+        <div class="card-info">
+          <img
+            src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2232"
+            alt=""
+            width="400px"
+            height="250px"
+          />
+          <h1>Kerala Backwaters</h1>
+      </div>
+
+    </div>
+  </body>
+</html>
